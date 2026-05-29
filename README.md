@@ -40,7 +40,7 @@ The **Server-Rendered E-Commerce Product Management Dashboard** is a secure, ful
 
 ---
 
-## Admin Credentials (For Evaluation)
+## Admin Credentials 
 
 The dashboard is protected to ensure only authorized personnel can access sensitive data. Please use the following dummy credentials to access the live demo:
 
