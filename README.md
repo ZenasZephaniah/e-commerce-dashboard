@@ -9,23 +9,15 @@ The **Server-Rendered E-Commerce Product Management Dashboard** is a secure, ful
 
 ## Key Features
 
-* **Server-Side Rendering (SSR)**
-  Product data is fetched on the server before rendering, ensuring instant initial page loads and improved performance compared to client-side fetching.
+* **Server-Side Rendering (SSR)** - Product data is fetched on the server before rendering, ensuring instant initial page loads and improved performance compared to client-side fetching.
 
-* **Secure Authentication & Onboarding**
-  * **Middleware Protection:** Custom Middleware verifies session tokens on every request.
-  * **Secure Admin Onboarding:** A protected route allows existing administrators to onboard new admins securely (restricted to authenticated users only).
+* **Secure Authentication & Onboarding** - **Middleware Protection:** Custom Middleware verifies session tokens on every request and **Secure Admin Onboarding:** A protected route allows existing administrators to onboard new admins securely (restricted to authenticated users only).
 
-* **Complete CRUD Operations**
-  * **Create:** Multi-step form with **Zod validation** and **Cloudinary** image upload.
-  * **Read:** Dynamic data table with real-time updates.
-  * **Update/Delete:** Secure actions to manage inventory.
+* **Complete CRUD Operations** - **Create:** Multi-step form with **Zod validation** and **Cloudinary** image upload, **Read:** Dynamic data table with real-time updates, **Update/Delete:** Secure actions to manage inventory.
 
-* **Data Visualization**
-  Interactive **Bar** and **Pie** charts (via Recharts) visualize stock levels and inventory distribution.
+* **Data Visualization** - Interactive **Bar** and **Pie** charts (via Recharts) visualize stock levels and inventory distribution.
 
-* **Sales Module**
-  Dedicated tracking for product sales performance.
+* **Sales Module** - Dedicated tracking for product sales performance.
 
 ---
 
