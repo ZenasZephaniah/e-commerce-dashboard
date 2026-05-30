@@ -7,7 +7,7 @@ The **Server-Rendered E-Commerce Product Management Dashboard** is a secure, ful
 
 The dashboard is protected to ensure only authorized personnel can access sensitive data. Please use the following dummy credentials to access the live demo: **Username:** `admin` and **Password:** `password123`
 
-## Key Features
+### Key Features and Application Workflow
 
 * **Server-Side Rendering (SSR)** - Product data is fetched on the server before rendering, ensuring instant initial page loads and improved performance compared to client-side fetching.
 * **Secure Authentication & Onboarding** - **Middleware Protection:** Custom Middleware verifies session tokens on every request and **Secure Admin Onboarding:** A protected route allows existing administrators to onboard new admins securely (restricted to authenticated users only).
@@ -15,7 +15,6 @@ The dashboard is protected to ensure only authorized personnel can access sensit
 * **Data Visualization** - Interactive **Bar** and **Pie** charts (via Recharts) visualize stock levels and inventory distribution.
 * **Sales Module** - Dedicated tracking for product sales performance.
 
-## Application Workflow
 1. **Request:** Admin accesses the secure URL.
 2. **Auth:** Middleware intercepts the request to verify the session token.
 3. **Fetch:** Server connects to MongoDB to fetch the latest product data (SSR).
