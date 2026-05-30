@@ -2,11 +2,9 @@
 
 ### [View Live Demo](https://srecpmd-ck1w.vercel.app/)
 ### [Watch Demo Video](https://drive.google.com/drive/folders/1bUwnTtpHddiPUENuycenOla6QgEYsLhC?usp=drive_link)
-
 The **Server-Rendered E-Commerce Product Management Dashboard** is a secure, full-stack administrative portal built with **Next.js 15**. It is designed to simplify inventory management for store administrators. This application leverages **Server-Side Rendering (SSR)** to ensure fast page loads, SEO optimization, and reliable data fetching.
-
+The dashboard is protected to ensure only authorized personnel can access sensitive data. Please use the following dummy credentials to access the live demo: **Username:** `admin` and **Password:** `password123`
 ---
-
 ## Key Features
 * **Server-Side Rendering (SSR)** - Product data is fetched on the server before rendering, ensuring instant initial page loads and improved performance compared to client-side fetching.
 * **Secure Authentication & Onboarding** - **Middleware Protection:** Custom Middleware verifies session tokens on every request and **Secure Admin Onboarding:** A protected route allows existing administrators to onboard new admins securely (restricted to authenticated users only).
@@ -16,21 +14,13 @@ The **Server-Rendered E-Commerce Product Management Dashboard** is a secure, ful
   * **Update/Delete:** Secure actions to manage inventory.
 * **Data Visualization** - Interactive **Bar** and **Pie** charts (via Recharts) visualize stock levels and inventory distribution.
 * **Sales Module** - Dedicated tracking for product sales performance.
-
 ---
-
-## Admin Credentials 
-The dashboard is protected to ensure only authorized personnel can access sensitive data. Please use the following dummy credentials to access the live demo: **Username:** `admin` and **Password:** `password123`
-
----
-
 ## Application Workflow
 1. **Request:** Admin accesses the secure URL.
 2. **Auth:** Middleware intercepts the request to verify the session token.
 3. **Fetch:** Server connects to MongoDB to fetch the latest product data (SSR).
 4. **Render:** Page is sent fully populated to the browser.
 5. **Interact:** Admin updates products; server revalidates data instantly.
-
 ---
 
 ## Installation and Setup
